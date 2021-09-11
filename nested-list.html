@@ -1,0 +1,92 @@
+<head>
+<style>
+ol,ul {
+   margin: 0;
+   margin-block-start: 0.6em;
+   margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+   margin-block-start: 0.6em;
+}
+
+ul > li {
+   list-style: disc;
+}
+
+ul.toggle > li {
+   list-style: none;
+}
+
+ul {
+   padding-inline-start: 1.4em;
+}
+
+ul > li {
+   padding-left: 0.1em;
+}
+
+ol {
+   padding-inline-start: 1.6em;
+}
+
+ol > li {
+   padding-left: 0.2em;
+}
+
+.toggle {
+   padding-inline-start: 0.2em;
+   list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+   padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+   margin-left: -1.1em;
+}
+
+p {
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+}
+
+.block-color-yellow_background {
+   background: rgb(251, 243, 219);
+}
+</style>
+</head>
+
+<ul class="block-color-yellow_background toggle">
+   <li>
+      <details>
+         <summary>
+            <strong>Descriptive Writing</strong>
+         </summary>
+         <ul class="block-color-yellow_background toggle">
+         <li>
+            <details>
+               <summary>
+                  <strong>Descriptive Writing</strong>
+               </summary>
+            <ul>
+               <li>What is something or someone like?</li>
+            </ul>
+            <ul>
+               <li>What are characteristics?</li>
+            </ul>
+            <ul>
+               <li>What are different parts which make it?</li>
+            </ul>
+            <p>
+               Hello this is a test, I'm telling this is a test not a drill.
+            </p>
+            </details>
+         </li>
+         </ul>
+      </details>
+   </li>
+</ul>
